@@ -1534,6 +1534,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@remix-run/router@0.2.0-pre.7":
+  version "0.2.0-pre.7"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-0.2.0-pre.7.tgz#60cf7a1ffe6d2c1310aa1779a1d6ea834939bdd0"
+  integrity sha512-trh8kVtJTFMPT+rRzgBIywncPmYFxFstPfblKSuekuLxpkXRr1T3t1oaQ4upzTg4eggrQUZnGjIhOgd4fx6pwQ==
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -7226,6 +7231,20 @@ react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
+
+react-router-dom@^6.4.0-pre.12:
+  version "6.4.0-pre.12"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.4.0-pre.12.tgz#7cbbc9847b160a48f97ac3f9ebf6439065d33756"
+  integrity sha512-tXX2v+B7Lvf/LrfjelLikaO8ZcLunGusdPZSyqYkQ5uEL2vRrWJ2thw7qJtVUeIx8Ja7+YXAKxvr7xBAOuvWEw==
+  dependencies:
+    react-router "6.4.0-pre.12"
+
+react-router@6.4.0-pre.12:
+  version "6.4.0-pre.12"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.4.0-pre.12.tgz#871973df1055abf6a7e42883e090f272c02e61a1"
+  integrity sha512-m8cMBE+tAg2U3FgBklXFrp59cBaDBSQ49yb3fYBeEhYhbHHf95Huw2L80O75daTcTjxxHhHKZ/Ty9EXmJxKe0A==
+  dependencies:
+    "@remix-run/router" "0.2.0-pre.7"
 
 react-scripts@5.0.1:
   version "5.0.1"
